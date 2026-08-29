@@ -1,0 +1,40 @@
+{
+  "name": "@mnemoclaw/immune-mcp",
+  "version": "0.1.0",
+  "description": "MCP server exposing the MnemoClaw immune memory (antibodies + strategies) to any MCP client — Claude Desktop, Claude Code, Cursor, and more.",
+  "main": "index.js",
+  "bin": {
+    "immune-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude-code",
+    "claude-desktop",
+    "cursor",
+    "adaptive-memory",
+    "immune"
+  ],
+  "author": "Jacques Chauvin",
+  "license": "MIT",
+  "homepage": "https://github.com/Mnemoclaw/immune-mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mnemoclaw/immune-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mnemoclaw/immune-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  }
+}
